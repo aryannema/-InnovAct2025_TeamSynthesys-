@@ -406,13 +406,13 @@ BFS = 0.50 * Demand + 0.30 * (100 - Risk) + 0.20 * (100 - Competition)
 
 ## Contributors
 
-| Name                 | GitHub                                                           |
-| -------------------- | ---------------------------------------------------------------- |
-| aryannema            | [@aryannema](https://github.com/aryannema)                       |
-| SuhaniiB             | [@SuhaniiB](https://github.com/SuhaniiB)                         |
-| somyarajsinghdalawat | [@somyarajsinghdalawat](https://github.com/somyarajsinghdalawat) |
-| rohit0507-dev        | [@rohit0507-dev](https://github.com/rohit0507-dev)               |
-| weed24-007           | [@weed24-007](https://github.com/weed24-007)                     |
+| Name                    | GitHub                                                           |
+| ----------------------- | ---------------------------------------------------------------- |
+| Aryan Nema              | [@aryannema](https://github.com/aryannema)                       |
+| Suhani Balchandani      | [@SuhaniiB](https://github.com/SuhaniiB)                         |
+| Somya Raj Singh Dalawat | [@somyarajsinghdalawat](https://github.com/somyarajsinghdalawat) |
+| Rohit Bhumireddi        | [@rohit0507-dev](https://github.com/rohit0507-dev)               |
+| Parth Batra             | [@weed24-007](https://github.com/weed24-007)                     |
 
 ---
 
