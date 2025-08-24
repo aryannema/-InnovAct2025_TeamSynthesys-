@@ -1,4 +1,4 @@
-# Sythesys (Geo-AI Feasibility & Prediction)
+# Synthesys (Geo-AI Feasibility & Prediction)
 
 A Next.js + FastAPI application that estimates **location feasibility** for small businesses using lightweight **AI/ML** and **geospatial** signals. Enter a candidate site (latitude/longitude), a radius, and your business type (e.g., Cafe, Gym). The app computes **Demand**, **Competition**, and **Risk**, explains the results, and provides an overall **Business Feasibility Score (BFS)**, recommendations, and charts.
 
@@ -6,7 +6,7 @@ A Next.js + FastAPI application that estimates **location feasibility** for smal
 
 ## Table of Contents
 
-- [Sythesys (Geo-AI Feasibility \& Prediction)](#sythesys-geo-ai-feasibility--prediction)
+- [Synthesys (Geo-AI Feasibility \& Prediction)](#synthesys-geo-ai-feasibility--prediction)
   - [Table of Contents](#table-of-contents)
   - [Key Features](#key-features)
   - [How AI \& ML Are Used](#how-ai--ml-are-used)
@@ -158,7 +158,7 @@ flowchart LR
       api.ts             # analyze() / predict()
       insights.ts        # BFS + recommendations, gaps, trends, risk text
     public/
-      logo-sythesys.png
+      logo-n.png
     .env.local.example
   data/
     population_density.tif  # (not committed)
