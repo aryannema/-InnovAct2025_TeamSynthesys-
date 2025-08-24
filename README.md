@@ -83,7 +83,7 @@ These are used in two places:
 
 ## Architecture & Workflow
 
-```mermaid
+```
 flowchart LR
   A[Browser UI (Next.js, TS, Tailwind, shadcn)] -->|POST /analyze| B[FastAPI (Uvicorn)]
   B -->|Read GeoTIFF (rasterio)| C[Demand Score]
