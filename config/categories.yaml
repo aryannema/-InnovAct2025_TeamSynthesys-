@@ -1,0 +1,6 @@
+categories:
+  cafe: { amenity: [cafe] }
+  bakery: { shop: [bakery] }
+  pharmacy: { amenity: [pharmacy] }
+  salon: { shop: [hairdresser, beauty] }
+  gym: { leisure: [fitness_centre] }
