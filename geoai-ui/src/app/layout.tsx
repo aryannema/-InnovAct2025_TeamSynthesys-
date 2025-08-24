@@ -1,7 +1,13 @@
 import "./globals.css";
+import "leaflet/dist/leaflet.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner"; // wrapper (client) around "sonner"
+import { Plus_Jakarta_Sans } from "next/font/google";
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-jakarta",
+});
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,8 +16,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "GeoAI UI",
-  description: "Hackathon frontend",
+  title: {
+    default: "Synthesys",
+    template: "%s | Synthesys",
+  },
+  description: "Synthesys – Geo-AI feasibility & prediction.",
 };
 
 export default function RootLayout({

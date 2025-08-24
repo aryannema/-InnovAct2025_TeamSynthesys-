@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 
+
+
 app = FastAPI(title="geoai", version="0.1.0")
 
 @app.get("/")

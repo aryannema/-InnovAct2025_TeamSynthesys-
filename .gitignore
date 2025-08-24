@@ -1,0 +1,27 @@
+# Node / Next
+geoai-ui/node_modules/
+geoai-ui/.next/
+geoai-ui/.vercel/
+geoai-ui/.env*
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.conda/
+backend/.env
+backend/cache/*.joblib
+
+# Data / large
+data/
+*.tif
+*.tiff
+*.zip
+*.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+geoai-ui/.env*

@@ -1,0 +1,11 @@
+name: geoai-backend
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - fastapi
+  - uvicorn
+  - rasterio
+  - numpy
+  - pyproj
+  - pydantic
