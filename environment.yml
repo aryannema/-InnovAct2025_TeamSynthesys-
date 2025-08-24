@@ -1,0 +1,17 @@
+name: geoai
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - geopandas
+  - shapely
+  - pyproj
+  - rtree
+  - rasterio
+  - pandas
+  - numpy
+  - pip
+  - pip:
+      - osmnx
+      - h3
+      - fastapi
+      - uvicorn
